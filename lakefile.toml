@@ -1,0 +1,10 @@
+name = "alpenglow-prover"
+version = "0.1.0"
+defaultTargets = ["alpenglow-prover"]
+
+[[lean_lib]]
+name = "AlpenglowProver"
+
+[[lean_exe]]
+name = "alpenglow-prover"
+root = "Main"
